@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MotherCoders</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body>
+
+        <h1>Contact Us</h1>
+
+        <div>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        
+        <div class="margin-20">
+            <button id="btn" onclick="document.location='../index.html'">Back to Home</button>
+        </div>
+        
+        <form class="margin-20">
+            <fieldset>
+                <div class="mt-10">
+                    <label>Name 
+                        <input type="text" >
+                    </label>
+                </div>
+
+                <div class="mt-10">
+                    <input type="radio" name="countryCode" id="spCode">
+                    <label for="male">+34</label>
+                    <input type="radio" name="countryCode" id="frCode">
+                    <label for="female">+33</label>
+                    <input type="radio" name="countryCode" id="grCode">
+                    <label for="female">+49</label>
+                </div>
+    
+                <div class="mt-10">
+                    <label>Phone Number 
+                        <input type="number" />
+                    </label>
+                </div>
+            </fieldset>
+           
+
+           
+
+            <div class="mt-10">
+                <input type="checkbox" name="sports" id="soccer">
+                <label for="soccer">Late Order</label>
+                <input type="checkbox" name="sports" id="cricket">
+                <label for="cricket">Damaged Packaging</label>
+                <input type="checkbox" name="sports" id="baseball">
+                <label for="baseball">Missing Items</label>
+            </div>
+
+            <div class="mt-10">
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="USA">Spain</option>
+                    <option value="Canada">France</option>
+                    <option value="Mexico">Germany</option>
+                </select>
+            </div>
+
+            <div class="mt-10">
+                <textarea rows="3" cols="30"></textarea>
+            </div>
+
+            <div class="mt-10">
+                <label for="file-select">Upload:</label>
+                <input type="file" name="upload">
+            </div>
+
+            <div class="mt-10">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        
+    </body>
+</html>
